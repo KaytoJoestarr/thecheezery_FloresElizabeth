@@ -10,6 +10,11 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
+        val button: Button = findViewById(R.id.button_sing_in)
 
+        button.setOnClickListener {
+            var intent : Intent = Intent(this,MenuActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

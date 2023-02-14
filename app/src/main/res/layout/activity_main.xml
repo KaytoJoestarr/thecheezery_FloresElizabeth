@@ -48,3 +48,4 @@
         android:id="@+id/button_get_started"
         />
 </LinearLayout>
+
